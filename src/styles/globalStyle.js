@@ -5,7 +5,7 @@ export default createGlobalStyle`
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: 'Comfortaa', sans-serif;
+    font-family: 'Comfortaa', cursive, sans-serif;
   }
 
   html {
@@ -14,7 +14,7 @@ export default createGlobalStyle`
 
   *, button, input {
     border: 0;
-    font-family: 'Comfortaa', sans-serif;
+    font-family: 'Comfortaa', cursive, sans-serif;
   }
 
   :root {
