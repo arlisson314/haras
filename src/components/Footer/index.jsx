@@ -1,11 +1,11 @@
-import { Container, FooterDescription } from './styles';
+// import { Link } from 'react-router-dom';
+import { Container } from './styles';
 
 function Footer() {
   return (
     <Container>
-      <FooterDescription>
-        Copyright © 2021. All rights reserved.
-      </FooterDescription>
+      <p>Copyright © 2021. All rights reserved.</p>
+      <a href="https://www.instagram.com/harasyahweh/">Instagram</a>
     </Container>
   );
 }
