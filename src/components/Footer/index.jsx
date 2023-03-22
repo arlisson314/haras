@@ -1,9 +1,11 @@
-import Container from './styles';
+import { Container, FooterDescription } from './styles';
 
 function Footer() {
   return (
     <Container>
-      Arlisson é muito lindo até no Footer
+      <FooterDescription>
+        Copyright © 2021. All rights reserved.
+      </FooterDescription>
     </Container>
   );
 }
