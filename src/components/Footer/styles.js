@@ -1,5 +1,5 @@
 import styled from 'styled-components';
-import img from '../../assets/footer-yahweh.jpg';
+import img from '../../assets/footer-yahweh.png';
 
 export const Container = styled.footer`
   display: flex;
