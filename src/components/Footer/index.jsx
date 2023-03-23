@@ -3,23 +3,18 @@ import { Link } from 'react-router-dom';
 import { FaInstagram, FaYoutube } from 'react-icons/fa';
 import { Container } from './styles';
 
-const iconeProps = {
-  size: 40,
-  color: '#e3a403',
-};
-
 function Footer() {
   return (
     <Container>
       <div>
         <Link to="/">
-          <FaInstagram {...iconeProps} />
+          <FaInstagram />
         </Link>
         <Link to="/">
-          <FaYoutube {...iconeProps} />
+          <FaYoutube />
         </Link>
       </div>
-      <p>Copyright © 2021. All rights reserved.</p>
+      <span>Copyright © 2021. All rights reserved.</span>
     </Container>
   );
 }
