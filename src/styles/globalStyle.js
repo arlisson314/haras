@@ -7,7 +7,7 @@ export default createGlobalStyle`
     box-sizing: border-box;
     font-family: 'Comfortaa', cursive, sans-serif;
   }
-
+  
   html {
     scroll-behavior: smooth;
     background-color: var(--tertiary);
@@ -22,7 +22,7 @@ export default createGlobalStyle`
     --primary: #daac11ff;
     --secundary: #7b4d0eff;
     --tertiary: #CFCFCF;
-    --primaryFont: #0e0e0eff;
+    --primaryfont: #0e0e0eff;
     --font: #ffff;
   }
 `;
