@@ -15,7 +15,7 @@ export const Container = styled.footer`
     border: 2px solid blue;
   }
 
-  a{
+  a {
     color: #888;
     border: 2px solid green;
     text-decoration: none;
