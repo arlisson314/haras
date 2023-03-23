@@ -5,12 +5,12 @@ import Container from './styles';
 function Header() {
   return (
     <Container>
-      <figure>
+      <Link to="/">
         <img src={logo} alt="logo do haras" />
-      </figure>
+      </Link>
       <nav>
         <Link to="/">
-          Inicìo
+          Inicío
         </Link>
         <Link to="/">
           Sobre
