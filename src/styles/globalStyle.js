@@ -26,8 +26,3 @@ export default createGlobalStyle`
     --font: #ffff;
   }
 `;
-// preto #0e0e0eff
-// amarelo #daac11ff
-// ocre #7b4d0eff
-// branco #ffff
-// cinza #CFCFCF
