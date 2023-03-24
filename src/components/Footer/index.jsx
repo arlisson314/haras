@@ -6,7 +6,7 @@ function Footer() {
   return (
     <Container>
       <div>
-        <Link to="/">
+        <Link to="https://www.instagram.com/harasyahweh/" target="_blank">
           <FaInstagram />
         </Link>
         <Link to="/">
