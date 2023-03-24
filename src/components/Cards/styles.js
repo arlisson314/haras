@@ -6,7 +6,7 @@ const Container = styled.div`
   align-items: center;
   width: 280px;
   height: 390px;
-  background-color: #f5f5f5;
+  background-color: var( --font);
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
   font-size: 1rem;
   >img {
