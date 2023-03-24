@@ -7,11 +7,12 @@ const Container = styled.div`
   width: 280px;
   height: 390px;
   background-color: var( --font);
-  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
   font-size: 1rem;
   >img {
     object-fit: contain;
     width: 98%;
+    margin-top: 3px;
   }
 
   > div {
