@@ -8,6 +8,7 @@ const Container = styled.header`
   align-items: center;
   display: flex;
   height: 12%;
+  width: 100%;
   >a {
     justify-content: center;
     display: flex;

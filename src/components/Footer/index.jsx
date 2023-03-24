@@ -1,4 +1,3 @@
-/* eslint-disable react/jsx-props-no-spreading */
 import { Link } from 'react-router-dom';
 import { FaInstagram, FaYoutube } from 'react-icons/fa';
 import { Container } from './styles';
