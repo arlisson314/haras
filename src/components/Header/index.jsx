@@ -15,7 +15,7 @@ function Header() {
         <Link to="/">
           Sobre
         </Link>
-        <Link to="/">
+        <Link to="/galeria">
           Galeria
         </Link>
         <Link to="/">
