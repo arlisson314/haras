@@ -1,3 +1,4 @@
+import Cards from '../../components/Cards';
 import Footer from '../../components/Footer';
 import Header from '../../components/Header';
 
@@ -7,7 +8,7 @@ function Home() {
   return (
     <Container>
       <Header />
-      <h1>Arlisson é muito lindo!</h1>
+      <Cards />
       <Footer />
     </Container>
   );
