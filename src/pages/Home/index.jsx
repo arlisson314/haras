@@ -8,7 +8,11 @@ function Home() {
   return (
     <Container>
       <Header />
-      <Cards />
+      <section>
+        <Cards />
+        <Cards />
+        <Cards />
+      </section>
       <Footer />
     </Container>
   );
