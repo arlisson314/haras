@@ -1,4 +1,4 @@
-import React from 'react';
+import Cards from '../../components/Cards';
 import Footer from '../../components/Footer';
 import Header from '../../components/Header';
 
@@ -11,10 +11,23 @@ function Galeria() {
       <section>
         <div>
           <h1>Galeria</h1>
-          <div>paginação</div>
+          <div>
+            <button type="button">dsfsfsdfdsfsfsfsdfs</button>
+            <button type="button">Galeria</button>
+            <button type="button">Galeria</button>
+            <button type="button">Galeria</button>
+          </div>
         </div>
         <main>
-          cards
+          <Cards />
+          <Cards />
+          <Cards />
+          <Cards />
+          <Cards />
+          <Cards />
+          <Cards />
+          <Cards />
+          <Cards />
         </main>
       </section>
       <Footer />

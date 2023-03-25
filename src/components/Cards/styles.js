@@ -1,34 +1,43 @@
 import styled from 'styled-components';
 
 const Container = styled.div`
-  display: flex;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  background-color: #f5f5f5;
   flex-direction: column;
   align-items: center;
-  width: 280px;
-  height: 390px;
-  background-color: var( --font);
-  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
-  font-size: 1rem;
+  border-radius: 4px;
+  font-size: 0.7rem;
+  display: flex;
+  height: 300px;
+  width: 220px;
   >img {
     object-fit: contain;
-    width: 98%;
-    margin-top: 3px;
+    width: 100%;
   }
 
   > div {
-    display: flex;
-    flex-direction: column;
     justify-content: flex-start;
+    flex-direction: column;
+    display: flex;
+    padding: 10px;
     width: 100%;
     height: 70%;
-    padding: 10px;
   }
 
   > button {
-    width: 80%;
-    height: 15%;
-    background-color: var(--primary);
+    background-color: transparent;
+    transition: ease-out 0.5s;
+    border: 1px solid var(--secundary);
     margin-bottom: 15px;
+    border-radius: 4px;
+    font-weight: bold;
+    cursor: pointer;
+    padding: 0 .5ch;
+    height: 20%;
+    width: auto;
+    &:hover {
+      background: var(--primary)
+    }
   }
 `;
 

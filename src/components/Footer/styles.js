@@ -2,35 +2,34 @@ import styled from 'styled-components';
 import img from '../../assets/footer-yahweh.png';
 
 export const Container = styled.footer`
-  display: flex;
-  text-align: center;
-  flex-direction: column;
-  padding: 10px 0;
-  width: 100%;
-  height: 100px;
   background-image: url(${img});
-
+  flex-direction: column;
+  text-align: center;
+  padding: 10px 0;
+  display: flex;
+  height: 100px;
+  width: 100%;
   >span {
-    margin-top: 10px;
     color: var(--tertiary);
+    margin-top: 10px;
     font-size: 15px;
   }
 
   div {
-    display: flex;
     justify-content: center;
     align-items: center;
+    display: flex;
     width: 100%;
     gap: 10px;
 
     >a {
-      margin-top: 10px;
+      transition: ease-out 0.4s;
       color: var(--font);
+      margin-top: 10px;
       font-size: 35px;
-    }
-
-    >a:hover {
-      color: var(--primary);
+      &:hover {
+        color: var(--primary);
+      }
     }
   }
 `;
