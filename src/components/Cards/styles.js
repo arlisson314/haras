@@ -8,14 +8,14 @@ const Container = styled.div`
   border-radius: 4px;
   font-size: 0.7rem;
   display: flex;
-  height: 300px;
-  width: 220px;
+  height: 380px;
+  width: 270px;
   >img {
     object-fit: contain;
     width: 100%;
   }
 
-  > div {
+  >div {
     justify-content: flex-start;
     flex-direction: column;
     display: flex;
@@ -24,7 +24,7 @@ const Container = styled.div`
     height: 70%;
   }
 
-  > button {
+  >button {
     background-color: transparent;
     transition: ease-out 0.5s;
     border: 1px solid var(--secundary);
@@ -37,6 +37,21 @@ const Container = styled.div`
     width: auto;
     &:hover {
       background: var(--primary)
+    }
+  }
+
+  >section {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    width: 100%;
+    min-height: 15%;
+    background: gray;
+    gap: 0.5em;
+    >span sp1{
+      background-color: white;
+      
     }
   }
 `;
