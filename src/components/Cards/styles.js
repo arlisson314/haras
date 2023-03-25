@@ -5,13 +5,14 @@ const Container = styled.div`
   background-color: #f5f5f5;
   flex-direction: column;
   align-items: center;
+  border-radius: 4px;
   font-size: 0.7rem;
   display: flex;
-  width: 220px;
   height: 300px;
+  width: 220px;
   >img {
     object-fit: contain;
-    width: 98%;
+    width: 100%;
   }
 
   > div {
@@ -24,10 +25,19 @@ const Container = styled.div`
   }
 
   > button {
-    background-color: var(--primary);
+    background-color: transparent;
+    transition: ease-out 0.5s;
+    border: 1px solid var(--secundary);
     margin-bottom: 15px;
-    height: 15%;
-    width: 80%;
+    border-radius: 4px;
+    font-weight: bold;
+    cursor: pointer;
+    padding: 0 .5ch;
+    height: 20%;
+    width: auto;
+    &:hover {
+      background: var(--primary)
+    }
   }
 `;
 

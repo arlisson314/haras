@@ -5,6 +5,7 @@ const Container = styled.div`
   flex-direction: column;
   align-items: center;
   overflow-x: hidden;
+  margin-top: 5em;
   display: flex;
 
   >section {
@@ -36,17 +37,19 @@ const Container = styled.div`
           border: 1px solid var(--secundary);
           background-color: transparent;
           transition: ease-out 0.5s;
+          border-radius: 4px;
           cursor: pointer;
           padding: 0 .5ch;
           width: auto;
           height: 95%;
           &:hover {
-            background-color: var(--font);
+            background-color: var(--primary);
           }
         }
       }
     }
     >main {
+      /* background-color: #f5f5f5; */
       justify-content: center;
       align-items:center;
       margin-bottom: 2ch;

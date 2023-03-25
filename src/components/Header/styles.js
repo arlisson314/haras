@@ -6,9 +6,14 @@ const Container = styled.header`
   justify-content: space-around;
   background-size: cover;
   align-items: center;
+  position: fixed;
   display: flex;
+  z-index: 999;
   height: 80px;
   width: 100%;
+  left: 0;
+  top: 0;
+  box-shadow: ${({ scrollValue }) => scrollValue > 0 && '0px 4px 5px 0px rgba(0,0,0,0.75)'};
   >a {
     justify-content: center;
     display: flex;
