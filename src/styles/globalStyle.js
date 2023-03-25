@@ -8,9 +8,14 @@ export default createGlobalStyle`
     font-family: 'Comfortaa', cursive, sans-serif;
   }
   
-  html {
-    scroll-behavior: smooth;
+  html, body, #root {
     background-color: var(--tertiary);
+    max-height: 100vh;
+    max-width: 100vw;
+    margin: auto;
+  
+    height: 100%;
+    width: 100%;
   }
 
   *, button, input {
