@@ -1,18 +1,20 @@
 import styled from 'styled-components';
 
 const Container = styled.div`
-  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.3);
   background-color: var(--bgCard);
   flex-direction: column;
   align-items: center;
-  border-radius: 4px;
-  /* font-size: 0.7rem; */
+  border-radius: 10px;
+  font-size: 0.7rem;
   display: flex;
-  height: 380px;
+  height: 400px;
   width: 280px;
   >img {
     object-fit: contain;
     width: 100%;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
   }
 
   >div {
@@ -25,18 +27,24 @@ const Container = styled.div`
   }
 
   >button {
-    background-color: transparent;
+    background-color: var(--tertiary);
+    color: var(--infoCards);
     transition: ease-out 0.5s;
-    border: 1px solid var(--secundary);
-    margin-bottom: 15px;
-    border-radius: 4px;
+    /* border: 1px solid var(--tertiary); */
+    /* margin-bottom: 15px; */
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
     font-weight: bold;
     cursor: pointer;
-    padding: 0 .5ch;
-    height: 20%;
-    width: auto;
+    /* padding: 0 .5ch; */
+    padding: 10px;
+    height: 10%;
+    /* width: auto; */
+    width: 100%;
+    margin-bottom: 0;
     &:hover {
-      background: var(--primary)
+      background: var(--primary);
+      color: var(--font);
     }
   }
 
@@ -46,7 +54,7 @@ const Container = styled.div`
     align-items: center;
     justify-content: center;
     width: 100%;
-    min-height: 15%;
+    min-height: 12%;
     background: white;
   }
   
@@ -62,7 +70,6 @@ const Container = styled.div`
       height: 100%;
 
       >p {
-        font-size: 10px;
         color: var(--secundary);
         >span {
           color: var(--infoCards);
@@ -78,7 +85,6 @@ const Container = styled.div`
     text-align: center;
     >h2 {
       color: var(--infoCards);
-      font-size: 10px;
     }
     >span {
       color: var(--infoCards);
