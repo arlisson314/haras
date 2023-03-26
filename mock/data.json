@@ -1,0 +1,31 @@
+{
+  "horses": [
+    {
+      "id": 1,
+      "name": "Potro do Ouro Verde",
+      "birth": "2018-22-12",
+      "genealogy": {
+        "father": "Capitão Caverna",
+        "mother": "Mãe Dináh"
+      }
+    },
+    {
+      "id": 2,
+      "name": "Potra Linda",
+      "birth": "2011-11-01",
+      "genealogy": {
+        "father": "Cavalito das Galácias",
+        "mother": "Mãe Dináh"
+      }
+    },
+    {
+      "id": 3,
+      "name": "Potro do Ouro Verde",
+      "birth": "2016-14-08",
+      "genealogy": {
+        "father": "Quatro de Patas",
+        "mother": "Mãe Dináh"
+      }
+    }
+  ]
+}
