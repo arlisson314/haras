@@ -26,8 +26,10 @@ export default createGlobalStyle`
   :root {
     --primary: #daac11ff;
     --secundary: #7b4d0eff;
-    --tertiary: #CFCFCF;
+    --tertiary: #d9dadb;
     --primaryfont: #0e0e0eff;
     --font: #ffff;
+    --infoCards: #808183;
+    --bgCard: #f5f5f5;
   }
 `;
