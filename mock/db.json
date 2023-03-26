@@ -1,0 +1,36 @@
+{
+  "horses": [
+    {
+      "id": 1,
+      "name": "Potro do Ouro Verde",
+      "sex": "Macho",
+      "birthdate": "2018-22-12",
+      "father": "Capitão Caverna",
+      "mother": "Mãe Dináh"
+    },
+    {
+      "id": 2,
+      "name": "Potra Linda",
+      "sex": "Fêmea",
+      "birthdate": "2011-11-01",
+      "father": "Cavalito das Galácias",
+      "mother": "Mãe Dináh"
+    },
+    {
+      "id": 3,
+      "name": "Potro do Ouro Verde",
+      "sex": "Macho",
+      "birthdate": "2016-14-08",
+      "father": "Quatro de Patas",
+      "mother": "Mãe Dináh"
+    },
+    {
+      "id": 4,
+      "name": "Éguarina del Porto",
+      "sex": "Fêmea",
+      "birthdate": "2012-14-12",
+      "father": "Quatro de Patas",
+      "mother": "Lucimilha da Hora"
+    }
+  ]
+}
