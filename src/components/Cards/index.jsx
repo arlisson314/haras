@@ -11,35 +11,35 @@ function Cards() {
         <div>
           <p>
             <FaVenusMars />
-            <span>Fêmea</span>
+            <span>Sexo</span>
           </p>
         </div>
 
         <div>
           <p>
             <FaHorseHead />
-            <span>Fêmea</span>
+            <span>Tipo</span>
           </p>
         </div>
 
         <div>
           <p>
             <IoMdCalendar />
-            <span>12/02/2021</span>
+            <span>Nasc</span>
           </p>
         </div>
 
       </section>
 
       <div>
-        <span><strong>POTRO D. OURO VERDE</strong></span>
+        <span><strong>NOME DO ANIMAL</strong></span>
         <span>(x) anos e (x) meses</span>
         <span>(pai) xxx (mãe) xxx</span>
       </div>
-      <button type="button">Informações</button>
+
+      <button type="button">INFORMAÇÕES</button>
     </Container>
   );
 }
 
 export default Cards;
-// FaVenusMars
