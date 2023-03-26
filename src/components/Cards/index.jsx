@@ -8,27 +8,33 @@ function Cards() {
     <Container>
       <img src={img} alt="horse" />
       <section>
-        <span>
-          <FaVenusMars />
-          Ops
-        </span>
-        <span>
-          <FaHorseHead />
-          Ops
-        </span>
-        <span>
-          <IoMdCalendar />
-          Ops
-        </span>
+        <div>
+          <p>
+            <FaVenusMars />
+            <span>Fêmea</span>
+          </p>
+        </div>
+
+        <div>
+          <p>
+            <FaHorseHead />
+            <span>Fêmea</span>
+          </p>
+        </div>
+
+        <div>
+          <p>
+            <IoMdCalendar />
+            <span>12/02/2021</span>
+          </p>
+        </div>
+
       </section>
 
       <div>
-        <h2>Cavalito Marchador</h2>
-        <span>Genealogia: Cavalão Papai</span>
-        <span>
-          <IoMdCalendar />
-          12/02/2021
-        </span>
+        <span><strong>POTRO D. OURO VERDE</strong></span>
+        <span>(x) anos e (x) meses</span>
+        <span>(pai) xxx (mãe) xxx</span>
       </div>
       <button type="button">Informações</button>
     </Container>
