@@ -1,5 +1,5 @@
-// import axios from 'axios';
-// import { useEffect } from 'react';
+import { useEffect, useState } from 'react';
+import axios from 'axios';
 import Cards from '../../components/Cards';
 import Footer from '../../components/Footer';
 import Header from '../../components/Header';
@@ -7,16 +7,19 @@ import Header from '../../components/Header';
 import Container from './styles';
 
 function Galeria() {
-  // const [data, setData] = useState([]);
+  const [data, setData] = useState([]);
 
-  // useEffect(() => {
-  //   function getData() {
-  //     axios.get('http://localhost:3000/horses')
-  //       .then((response) => console.log(response))
-  //       .catch();
-  //   }
-  //   getData();
-  // }, []);
+  const getData = () => {
+    const URL = 'http://localhost:3004/horses';
+
+    axios.get(URL)
+      .then((response) => setData(response.data))
+      .catch((err) => console.error(err));
+  };
+
+  useEffect(() => {
+    getData();
+  }, []);
 
   return (
     <Container>
@@ -32,15 +35,9 @@ function Galeria() {
           </div>
         </div>
         <main>
-          <Cards />
-          <Cards />
-          <Cards />
-          <Cards />
-          <Cards />
-          <Cards />
-          <Cards />
-          <Cards />
-          <Cards />
+          {data && data.map((item) => (
+            <Cards key={item.id} {...item} />
+          ))}
         </main>
       </section>
       <Footer />
