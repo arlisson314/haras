@@ -11,83 +11,68 @@ const Container = styled.div`
   height: 400px;
   width: 280px;
   >img {
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
     object-fit: contain;
     width: 100%;
-    border-top-left-radius: 10px;
-    border-top-right-radius: 10px;
-  }
-
-  >div {
-    justify-content: flex-start;
-    flex-direction: column;
-    display: flex;
-    padding: 10px;
-    width: 100%;
-    height: 70%;
-  }
-
-  >button {
-    background-color: var(--tertiary);
-    color: var(--infoCards);
-    transition: ease-out 0.5s;
-    /* border: 1px solid var(--tertiary); */
-    /* margin-bottom: 15px; */
-    border-bottom-left-radius: 10px;
-    border-bottom-right-radius: 10px;
-    font-weight: bold;
-    cursor: pointer;
-    /* padding: 0 .5ch; */
-    padding: 10px;
-    height: 10%;
-    /* width: auto; */
-    width: 100%;
-    margin-bottom: 0;
-    &:hover {
-      background: var(--primary);
-      color: var(--font);
-    }
   }
 
   >section {
-    display: flex;
+    justify-content: center;
     flex-direction: row;
     align-items: center;
-    justify-content: center;
-    width: 100%;
-    min-height: 12%;
     background: white;
-  }
-  
-  >section {
+    min-height: 12%;
     display: flex;
-    
+    width: 100%;
     >div {
-      display: flex;
+      border: 1px solid var(--tertiary);
       justify-content: center;
       align-items: center;
-      border: 1px solid var(--tertiary);
+      display: flex;
       width: 33.3%;
       height: 100%;
-
       >p {
         color: var(--secundary);
         >span {
           color: var(--infoCards);
-          margin: 1px;
+          margin: 0.4ch;
         }
       }
     }
   }
 
   >div {
-    display: flex;
+    flex-direction: column;
     justify-content: center;
     text-align: center;
+    display: flex;
+    padding: 10px;
+    width: 100%;
+    height: 70%;
     >h2 {
       color: var(--infoCards);
     }
     >span {
       color: var(--infoCards);
+    }
+  }
+
+  >button {
+    background-color: var(--tertiary);
+    border-bottom-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+    transition: ease-out 0.5s;
+    color: var(--infoCards);
+    font-weight: bold;
+    margin-bottom: 0;
+    cursor: pointer;
+    padding: 10px;
+    height: 10%;
+    width: 100%;
+    &:hover {
+      background: var(--primary);
+      color: var(--font);
     }
   }
 `;
