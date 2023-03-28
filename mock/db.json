@@ -37,16 +37,16 @@
       "type": "Garanhão"
     }
   ],
-  "progenitores": [
+  "parents": [
     {
       "id": 1,
       "name": "Elfo do Porto Azul",
-      "imagem": "src/assets/sela-horse.jpg"
+      "image": "../src/assets/iraque-pontal.jpg"
     },
     {
       "id": 2,
       "name": "Iraque Pontal",
-      "imagem": "src/assets/horse-camp.jpg"
+      "image": "../../assets/iraque-pontal.jpg"
     }
   ]
 }
