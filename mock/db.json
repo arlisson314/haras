@@ -36,5 +36,17 @@
       "mother": "Lucimilha da Hora",
       "type": "Garanhão"
     }
+  ],
+  "progenitores": [
+    {
+      "id": 1,
+      "name": "Elfo do Porto Azul",
+      "imagem": "src/assets/sela-horse.jpg"
+    },
+    {
+      "id": 2,
+      "name": "Iraque Pontal",
+      "imagem": "src/assets/horse-camp.jpg"
+    }
   ]
 }
