@@ -1,11 +1,13 @@
 import img from '../../assets/img-sem-fundo.png';
+import { Container } from './styles';
 
 function Carrossel() {
   return (
-    <section>
+    <Container>
       <h1>Haras YahWeh</h1>
       <img src={img} alt="marchador" />
-    </section>
+    </Container>
+
   );
 }
 
