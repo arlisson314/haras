@@ -30,7 +30,7 @@ const Container = styled.div`
       justify-content: center;
       align-items: center;
       display: flex;
-      width: 33.3%;
+      width: 33.333%;
       height: 100%;
       >p {
         color: var(--secundary);
