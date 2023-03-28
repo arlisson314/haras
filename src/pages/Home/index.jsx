@@ -1,6 +1,6 @@
-import Cards from '../../components/Cards';
 import Footer from '../../components/Footer';
 import Header from '../../components/Header';
+import img from '../../assets/img-sem-fundo.png';
 
 import Container from './styles';
 
@@ -9,9 +9,8 @@ function Home() {
     <Container>
       <Header />
       <section>
-        <Cards />
-        <Cards />
-        <Cards />
+        <h1>Haras YahWeh </h1>
+        <img src={img} alt="marchador" />
       </section>
       <Footer />
     </Container>
