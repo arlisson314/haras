@@ -28,7 +28,6 @@
     "no-confusing-arrow": [0],
     "react/prop-types": "off",
     "react/jsx-no-bind": [0],
-    "no-console": "off",
-    "import/no-dynamic-require": "off"
+    "no-console": "off"
   }
 }

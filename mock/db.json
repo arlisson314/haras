@@ -41,12 +41,12 @@
     {
       "id": 1,
       "name": "Elfo do Porto Azul",
-      "image": "../src/assets/iraque-pontal.jpg"
+      "image": "https://www.centraldecoberturas.com.br/upload/cavalos/cavalos-73centraldecoberturas-_gd-154838..jpg"
     },
     {
       "id": 2,
       "name": "Iraque Pontal",
-      "image": "../../assets/iraque-pontal.jpg"
+      "image": "https://img.olx.com.br/images/70/706372600618242.jpg"
     }
   ]
 }

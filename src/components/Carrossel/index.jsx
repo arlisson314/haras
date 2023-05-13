@@ -1,11 +1,11 @@
-/* eslint-disable global-require */
 /* eslint-disable import/no-unresolved */
-import { Swiper, SwiperSlide } from 'swiper/react';
 import axios from 'axios';
 import { useEffect, useState } from 'react';
-import { Container } from './styles';
+import { Navigation, Pagination, Autoplay } from 'swiper';
+import { Container, StyledSwiper, StyledSwiperSlide } from './styles';
 import 'swiper/css';
-// import img from '../../assets/horse.jpg';
+import 'swiper/css/pagination';
+import 'swiper/css/navigation';
 
 function Carrossel() {
   const [parents, setParents] = useState([]);
@@ -23,13 +23,20 @@ function Carrossel() {
 
   return (
     <Container>
-      <Swiper>
+      <StyledSwiper
+        modules={[Navigation, Pagination, Autoplay]}
+        pagination={{ clickable: true }}
+        scrollbar={{ draggable: true }}
+        autoplay={{ delay: 3000 }}
+        direction="horizontal"
+        navigation
+      >
         {parents && parents.map((item) => (
-          <SwiperSlide key={item.id}>
-            <img src={require(item.image)} alt={item.name} />
-          </SwiperSlide>
+          <StyledSwiperSlide key={item.id}>
+            <img src={item.image} alt={item.name} />
+          </StyledSwiperSlide>
         ))}
-      </Swiper>
+      </StyledSwiper>
     </Container>
   );
 }
